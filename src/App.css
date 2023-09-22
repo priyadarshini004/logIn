@@ -1,0 +1,65 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%; 
+  max-width: 400px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.valid {
+  color: green;
+}
+
+.form-field svg {
+  font-size: 24px; 
+  padding-top: 12px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+#mailIcon{
+  padding-right: 6px;
+}
+.TextField{
+  font-size: 18px; 
+  width: 100%;
+}
+
+.login-button {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  font-size: 20px; 
+}
+
+
+
+
