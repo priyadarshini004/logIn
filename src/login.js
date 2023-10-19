@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import LocalPostOfficeOutlinedIcon from '@mui/icons-material/LocalPostOfficeOutlined';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
@@ -17,6 +18,7 @@ function Login() {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [validIcon, setValidIcon] = useState(false);
+  const navigate = useNavigate();
 
   function loginHandle(e) {
     e.preventDefault();
@@ -35,6 +37,7 @@ function Login() {
         setUser('');
         setPassword('');
         setValidIcon(false);
+        navigate('/landing');
       }, 2500);
     }
   }
@@ -75,7 +78,6 @@ function Login() {
 
   return (
     <Paper elevation={6} className='login-container'>
-      
 
       <form className='form-container' onSubmit={loginHandle}>
       <header className='header'>

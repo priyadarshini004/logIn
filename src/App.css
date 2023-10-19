@@ -1,12 +1,19 @@
 .login-container {
+  background-image: url('./main.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-color: #FFFFFF;
 }
 
 .form-container {
+  background: rgba(255, 255, 255, 0.916);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,5 +68,11 @@
 }
 
 
+@media screen  and (max-width :480px ) {
+  .login-container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 
 
