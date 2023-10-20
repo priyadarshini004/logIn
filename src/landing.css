@@ -119,7 +119,12 @@ body{
     font-size:35px;
 }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:370px){
+  .img{
+    width:330px
+  }
+}
+@media screen and (max-width:355px){
   .img{
     width:300px
   }
