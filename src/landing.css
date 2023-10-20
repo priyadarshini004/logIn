@@ -124,7 +124,7 @@ body{
     width:330px
   }
 }
-@media screen and (max-width:355px){
+@media screen and (max-width:340px){
   .img{
     width:300px
   }
@@ -135,6 +135,7 @@ body{
   }
   .content{
     padding-top: 80px;
+    justify-content: start;
   }
  #title{
   font-size:35px;
