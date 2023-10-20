@@ -4,6 +4,7 @@ import  image from './910168e5d15b51d7a08bfca4ae553b9f.jpg';
 import EmailIcon from '@mui/icons-material/Email';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import ShareIcon from '@mui/icons-material/Share';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 function Landing() {
 return (
@@ -28,6 +29,18 @@ return (
         <button className='button'>Learn</button>
        
     </div>
+    <div className="footer">
+        <a href=''>
+          <EmailIcon />
+        </a>
+        <a href=''>
+          <TwitterIcon />
+        </a>
+        <a href=''>
+          <ShareIcon />
+        </a>
+        <p className='copy'><CopyrightIcon/> 2023 Priyadarshini</p>
+      </div>
 </div>   
  );
 }
